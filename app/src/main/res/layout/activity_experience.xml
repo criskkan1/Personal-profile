@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Experience">
+
+    <Button
+        android:id="@+id/btnHome1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="49dp"
+        android:background="#3F51B5"
+        android:text="@string/goHome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintVertical_bias="0.944" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="232dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Experience Professional "
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/txtExp1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtExp1"
+        android:layout_width="234dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginBottom="485dp"
+        android:backgroundTint="#1403A9F4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="HelpDesk Specialist: 2 years "
+        android:textColor="#3F51B5"
+        android:textColorHighlight="#8FFFFFFF"
+        android:textColorLink="#86FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/txtExp2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="11dp"
+        android:background="#7CFFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Technical Support: 2 years"
+        android:textColor="#3F51B5"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/txtExp4"
+        app:layout_constraintEnd_toEndOf="@+id/txtExp4"
+        app:layout_constraintStart_toStartOf="@+id/txtExp4"
+        app:layout_constraintTop_toBottomOf="@+id/txtExp3" />
+
+    <EditText
+        android:id="@+id/txtExp3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginBottom="9dp"
+        android:background="#6BFFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Service Desk Tier2: 2 years"
+        android:textColor="#3F51B5"
+        android:textColorHighlight="#9EFFFFFF"
+        android:textColorLink="#A9FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/txtExp2"
+        app:layout_constraintEnd_toEndOf="@+id/txtExp2"
+        app:layout_constraintStart_toStartOf="@+id/txtExp2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtExp4"
+        android:layout_width="226dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginBottom="17dp"
+        android:background="#8DFFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Software Support: 2 years"
+        android:textColor="#3F51B5"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName6"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName6"
+        app:layout_constraintTop_toBottomOf="@+id/txtExp2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="228dp"
+        android:background="#6FFFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="https://www.linkedin.com/in/crispin-kanyinda-kadima"
+        android:textColor="#00BCD4"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtExp4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

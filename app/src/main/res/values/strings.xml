@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My personal info</string>
+    <string name="Welcome">My Presentation</string>
+    <string name="goPresentation">My presentation</string>
+    <string name="goExperience">My experience</string>
+    <string name="goPicture">My picture</string>
+    <string name="goHome">Home page</string>
+        <string name="welcome_to_my_personal_portfolio">Welcome to my personal portfolio App</string>
+
+</resources>

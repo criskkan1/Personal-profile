@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Presentation">
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="138dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="80dp"
+        android:background="#61FFFFFF"
+        android:text="@string/goHome"
+        android:textColor="#0D122E"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/txtHi"
+        android:layout_width="194dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="536dp"
+        android:ems="100"
+        android:inputType="textPersonName"
+        android:text="Hi I am Crispin Kadima"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txtPres1"
+        android:layout_width="386dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="261dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="100dp"
+        android:ems="14"
+        android:inputType="textPersonName"
+        android:text="I am a bilingual (French/English) IT specialist for 5 years"
+        android:textColor="#050713"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/emText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/txtPres2"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="368dp"
+        android:layout_marginEnd="9dp"
+        android:ems="18"
+        android:inputType="textPersonName"
+        android:text="Experience in Technical Support, Service Desk  and Help Desk."
+        android:textColor="#030822"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/emText"
+        android:layout_width="154dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:text="criskkan@gmail.com"
+        android:textColor="#1491A1"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPres2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
